@@ -1,0 +1,190 @@
+@font-face {
+        font-family: 'Circe';
+        src: url('fonts/circe-extrabold.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+* {
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', serif;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 20px #A3A3A3;
+}
+
+/* ----- header -----*/
+
+.intro {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 600px;
+    height: 725px;
+    background: url(img/banner.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.intro__info {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: 'Circe', sans-serif;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.discount__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount__block p{
+    font-size: 42px;
+    color: #2E2E2E;
+    font-weight: 800;
+    font-family: 'Circe', sans-serif;
+}
+
+.discount__block span {
+    color: #2E2E2E;
+}
+
+.promo__block {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.promo__block p {
+    margin-bottom: 10px;
+    color: #2E2E2E;
+}
+
+.promo {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: 700;
+    border: 1px dashed black;
+}
+
+.btn-price {
+    padding: 20px 45px;
+    background-color: #2ABE80;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ----- header END -----*/
+
+/* ----- greeting ----- */
+
+.greeting {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.greeting a{
+    color: #5278ca;
+}
+
+/* ----- greeting END ----- */
+
+/* ----- gallery  ----- */
+
+.gallery {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 70px;
+}
+
+.gallery__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.gallery__row__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery__row__block a {
+    font-weight: 700;
+    color: #476FC6;
+}
+
+/* ----- gallery END ----- */
+
+/* ----- description ----- */
+
+.description {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* ----- description END ----- */
+
+/* ----- footer ----- */
+
+/* footer{
+
+}
+
+.footer__links{
+
+}
+
+.footer__text{
+
+}
+
+.footer__info{
+
+} */
+
+/* ----- footer END ----- */
